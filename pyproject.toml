@@ -1,0 +1,28 @@
+[project]
+name = "kern"
+version = "0.1.0"
+description = "Automatic kerning pipeline based on GPOS-declared kerning pairs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fonttools>=4.50.0",
+    "freetype-py>=2.4.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.31.0",
+    "tqdm>=4.66.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "jupyter>=1.0.0",
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.0",
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "shap>=0.49.1",
+    "scikit-learn>=1.7.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.0",
+    "pyinstaller>=6.22.0",
+]

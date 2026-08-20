@@ -1,0 +1,35 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Assistant config (not project content)
+.commandcode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large / regenerable data (not on GitHub)
+data/raw/
+data/processed/features/
+data/processed/glyphs/
+
+# Downloaded paper artifacts (reference is available on arXiv)
+data/*.pdf
+data/paper_text.txt
+
+# Internal docs & AI context (local only)
+AGENTS.md
+INSTRUCTIONS.md
+LastTime.md
+PIPELINE_v3.md
+kerning_complete.md
+update.md
+relazione/
+
+# Old material
+OLD/
